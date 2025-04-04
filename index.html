@@ -6,20 +6,41 @@
     <!-- conjunto de caracteres que usamos. meta significa algo que esta a otro nivel no el principal. -->
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <!-- contenido esta con el ancho de la pantalla cualquiera sea -->
-    <title>primer pagina</title>
+    <title>Agenda De Contactos</title>
     <!-- titulo de la pagina web que se ve -->
 </head>
 <!-- todo lo que hay adentro del head es informacion para el navegador, pocas lineas aca -->
 <!-- la barra / se usa para cerrar -->
 <body>
     <header>
+        <ul type="none"><li></li>
+        <a href=""><li></li></a>
+        <li></li>
+        <li></li></ul>
         <nav></nav>
-        <h1>hola</h1>
+        <h1>AGENDA DE CONTACTOS</h1>
         <img src="./foto" alt="foto de steve">
         <!-- texto alternativo de la imagen -->
         <h2>mundo</h2>
     </header>
     <main>
+        <ol type="1" start="5">
+            <li>elemento</li>
+            <li>elemento</li>
+            <li>elemento</li>
+        </ol>
+            
+        <!-- lista ordenada con criterio -->
+        <ul>
+            <li>elemento</li>
+            <li>elemento</li>
+            <li>elemento</li>
+        </ul>
+        <!-- lista desordenada -->
+        <a href="http://google.com" target="_blank"></a> 
+        <!-- hipervinculo externo -->
+         <a href="#final "> ir a la seccion final</a>
+         <!-- ir a otra seccion de la pagina -->
         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Iste suscipit in perferendis, praesentium quis voluptatum consequuntur perspiciatis tempore magnam aut nulla rem dignissimos quisquam atque sint. Blanditiis minima dolores magnam.</p>
         <div>seccion1</div>
         <div>seccion2</div>
@@ -29,7 +50,44 @@
         <!-- solo ocupan lo que ocupa el contenido del renglon -->
     </main>
     <footer>
-
+        <marquee behavior="" direction=""></marquee>
+        <!-- no usar -->
+         <table>
+            <th>encabezado uno</th>
+            <tr>
+                <td>data uno</td><td>data dos</td><td>data tres</td>
+            </tr>
+            <tr>
+                <td>data cuatro</td>
+            </tr>
+            <tr>
+                <td></td><td>data cinco</td>
+            </tr>
+         </table>
+         <form action="" method="post">
+            <input type="button" value="hazme clic">
+            <input type="text" name="" id="" placeholder="escribime">
+            <input type="date" name="" id="">
+            <input type="checkbox" name="femenino" id="generofemenino"><label for="generofemenino">femenino</label>
+            <br>
+            <input type="email" name="" id="">
+            <input type="password" name="" id="" placeholder="contraseña">
+            <input type="hidden" name="">
+            <!-- roba informacion al usuario para sacar estadistica -->
+             <input type="radio" name="" id="">
+             <textarea name="" id=""></textarea>
+             <!-- rompe diseño de la web -->
+         </form>
+         <button>hazme clic</button>
+         <!-- mismo al input bottom -->
+          <select name="" id="">
+            <option value="$">pesos argentinos</option>
+            <option value="us$">dolares </option>
+            <!-- te guarda el valor para trabajar -->
+          </select>
+          <details>
+            <summary>NO ABRIR</summary> hola
+          </details>
     </footer>
     <!-- esto anotamos nosotros -->
 </body>
